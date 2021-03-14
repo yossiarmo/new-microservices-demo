@@ -4,6 +4,9 @@
 
 **Improvement** this is the improved version of the well know "Online Boutique"... :-P
 
+<p align="center">
+<img src="https://i.imgflip.com/51oy7j.jpg" width="300" />
+</p>
 **Online Boutique** is a cloud-native microservices demo application.
 Online Boutique consists of a 10-tier microservices application. The application is a
 web-based e-commerce app where users can browse items,
