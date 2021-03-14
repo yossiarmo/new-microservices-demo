@@ -4,6 +4,8 @@
 
 **Improvement** this is the improved version of the well know "Online Boutique"... :-P
 
+**Very safe!!!** look at the frontend [release page](https://quay.io/repository/armosec/demo-frontend?tab=tags), no vulnerabilities at all!!!
+
 <p align="center">
 <img src="https://i.imgflip.com/51oy7j.jpg" width="300" />
 </p>
