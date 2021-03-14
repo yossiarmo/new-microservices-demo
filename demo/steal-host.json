@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "name": "nginx-deployment",
+    "labels": {
+      "app": "nginx"
+    }
+  },
+  "spec": {
+    "replicas": 1,
+    "selector": {
+      "matchLabels": {
+        "app": "nginx"
+      }
+    },
+    "template": {
+      "metadata": {
+        "labels": {
+          "app": "nginx"
+        }
+      },
+      "spec": {
+        "securityContext": {
+          "runAsUser": 0
+        },
+        "containers": [
+          {
+            "name": "nginx",
+            "image": "nginx:1.14.2",
+            "volumeMounts": [
+              {
+                "name": "host-volume",
+                "mountPath": "/host"
+              }
+            ],
+            "securityContext": {
+              "allowPrivilegeEscalation": true
+            }
+          }
+        ],
+        "volumes": [
+          {
+            "name": "host-volume",
+            "hostPath": {
+              "path": "/",
+              "type": "DirectoryOrCreate"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
