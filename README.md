@@ -2,9 +2,7 @@
 <img src="src/frontend/static/icons/Hipster_HeroLogoCyan.svg" width="300" alt="Online Boutique" />
 </p>
 
-
-![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Master/Release/badge.svg)
-
+**Improvement** this is the improved version of the well know "Online Boutique"... :-P
 
 **Online Boutique** is a cloud-native microservices demo application.
 Online Boutique consists of a 10-tier microservices application. The application is a
@@ -18,9 +16,6 @@ Kubernetes Engine. It’s **easy to deploy with little to no configuration**.
 
 If you’re using this demo, please **★Star** this repository to show your interest!
 
-> 👓**Note to Googlers:** Please fill out the form at
-> [go/microservices-demo](http://go/microservices-demo) if you are using this
-> application.
 
 Looking for the old Hipster Shop frontend interface? Use the [manifests](https://github.com/GoogleCloudPlatform/microservices-demo/tree/v0.1.5/kubernetes-manifests) in release [v0.1.5](https://github.com/GoogleCloudPlatform/microservices-demo/releases/v0.1.5).
 
