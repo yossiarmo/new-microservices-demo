@@ -161,7 +161,7 @@ spec:
       containers:
       - name: server
         securityContext:
-          privileged: false
+          privileged: true
         image: gcr.io/google-samples/microservices-demo/recommendationservice:v0.3.0
         ports:
         - containerPort: 8080
