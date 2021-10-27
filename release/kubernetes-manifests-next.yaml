@@ -160,8 +160,8 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        securityContext:
-          privileged: false
+#        securityContext:
+#          privileged: false
         image: gcr.io/google-samples/microservices-demo/recommendationservice:v0.3.0
         ports:
         - containerPort: 8080
