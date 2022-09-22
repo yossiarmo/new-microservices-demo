@@ -1,7 +1,12 @@
-name: Kubescape scanning for misconfigurations
-on: [push]
+name: Kubescape 
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+   
 jobs:
-  kubescape:
+  nsa-security-check:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
