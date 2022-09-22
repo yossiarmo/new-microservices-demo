@@ -6,7 +6,7 @@ on:
     branches: [ master ]
    
 jobs:
-  nsa-security-check:
+  bridgecrew-security-check:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
