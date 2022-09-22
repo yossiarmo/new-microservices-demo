@@ -1,4 +1,4 @@
-name: Kubescape 
+name: Bridgecrew 
 on:
   push:
     branches: [ master ]
