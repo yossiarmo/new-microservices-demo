@@ -72,7 +72,7 @@ spec:
             timeoutSeconds: 5
           resources: {}
           securityContext:
-            privileged: false
+            privileged: true
           volumeMounts:
             - mountPath: /var/lib/postgresql/data
               name: postgres-db
