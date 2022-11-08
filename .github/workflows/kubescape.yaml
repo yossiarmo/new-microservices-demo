@@ -11,7 +11,7 @@ jobs:
         format: sarif
         outputFile: results.sarif
         # # Optional - Add Kubescape cloud account ID.
-        # account: ${{secrets.KUBESCAPE_ACCOUNT}}
+        account: ${{secrets.KS_ACCOUNT_ID}}
         # # Optional - Scan a specific path. Default will scan all
         # files: "examples/*.yaml"
     - name: Upload Kubescape scan results to Github Code Scanning
