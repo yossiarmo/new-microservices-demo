@@ -31,7 +31,7 @@ spec:
               memory: "64Mi"
               cpu: "64m"
             limits:
-              cpu: "500m"
+              cpu:
           ports:
             - containerPort: 80
         - name: rss-reader
