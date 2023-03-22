@@ -1,4 +1,4 @@
-name: Kubescape scanning for misconfigurations
+name: Kubescape scanning for k8s misconfigurations
 on: [push, pull_request]
 jobs:
   kubescape:
