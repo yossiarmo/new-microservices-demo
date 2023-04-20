@@ -1,4 +1,4 @@
-apiVersion: apps/v6
+apiVersion: apps/v7
 kind: Deployment
 metadata:
   name: rss-site
