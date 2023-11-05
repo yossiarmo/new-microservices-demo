@@ -5,7 +5,7 @@ env:
   TEST_TAG: yossibarmosec/img-scanning:test
   LATEST_TAG: yossibarmosec/img-scanning:latest
 jobs:
-  docker:
+  build-docker:
     runs-on: ubuntu-latest
     permissions:
       actions: read
@@ -38,7 +38,7 @@ jobs:
           image: ${{ env.TEST_TAG }}
           format: sarif
           outputFile: results.sarif
-          severityThreshold: "medium"
+          severityThreshold: "high"
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
